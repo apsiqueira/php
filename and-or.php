@@ -19,16 +19,38 @@
 		$presenca_aprov = 0.7;
 
 		$aluno = array (
+		
 			'nome' => 'Fernando Costa',
-			'media' => 7.5,
-			'faltas' => 6
+			'media' => 5,
+			'faltas' => 4
 		);
 
 		?>
+		
 
 		<h3>AND</h3>
-		<h4>Situação do aluno: </h4>
-		<p></p>
+		<h4>Situação do aluno: </h4><br>
+		<p>
+		<?php foreach($aluno as $dadosAluno){
+			
+			echo $dadosAluno;
+			echo "<br>";
+			
+					
+		}?>
+		<?php if($aluno["faltas"]>=5){
+			echo "reprovado por faltas";
+		}
+		elseif($aluno["media"]<=6){
+			echo "reprovado por media";
+		}
+		else {
+			echo "Aprovado";
+		}
+		?>
+		
+
+		</p>
 		<br>
 
 		<h3>OR</h3>

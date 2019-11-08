@@ -18,6 +18,9 @@
 		
 		<?php 
 
+
+	
+
 		?>
 
 
@@ -39,17 +42,36 @@
 
 			);
 
+			include 'components/photoGallery.php'
+			
+			
+
+		?>
+
+
+		<?php 
+		
+		$photoGallery = array (
+				
+			'img/prato_5.jpg',
+			'img/prato_6.jpg',
+			'img/prato_7.jpg',
+			'img/prato_8.jpg'
+
+		);
+
+		include 'components/photoGallery.php'
+		
+		
+		
+		
+		
+		
+		
+		
 		?>
 		
-		<div class="gallery-001">
-
-			<?php foreach ($photoGallery as $photo) { ?>
-
-				<img src="<?php echo $photo; ?>" alt="galeria-fotos">
-
-			<?php } ?>
-
-		</div>
+		
 
 		
 

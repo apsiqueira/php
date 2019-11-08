@@ -1,7 +1,7 @@
-	<?php 
-		include 'header.php';
-		include 'functions/functions.php';
-		$aula_atual = 'variaveis-superglobais';
+	<?php
+	include 'header.php';
+	include 'functions/functions.php';
+	$aula_atual = 'variaveis-superglobais';
 	?>
 
 
@@ -16,11 +16,22 @@
 
 		<h3>$_SERVER</h3>
 
-		<p><?php ?></p>
+		<pre><?php
+				// var_dump( $_SERVER);
+
+				?></pre>
 
 
 
 		<h3>$GLOBALS</h3>
+
+		<pre>
+		<?php
+		var_dump($GLOBALS);
+		?>
+
+
+		</pre>
 
 		<?php
 
@@ -32,7 +43,7 @@
 		<p><?php ?></p>
 
 
-		
+
 
 
 
@@ -48,4 +59,4 @@
 
 	</body>
 
-</html>
+	</html>

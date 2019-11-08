@@ -149,12 +149,13 @@ $aula_atual = 'strings';
 
 	
 	 foreach($arr1 as $value){
-      echo $value." / ";
+      echo "{$value} /";
 		 
 	 } 
+	 echo"<br>";
 	 
 	 foreach($arr1 as $value){
-	   
+	 
 	echo var_export($value);
 	// echo is_string();
 
@@ -162,9 +163,11 @@ $aula_atual = 'strings';
 
 	 }
 
-	 ?>
 
+   echo"GNOME vs Trolls Before we start with the {$value} , I’d like to bring this to everyone’s attention: https://www.gnome.org/news/2019/10/gnome-files-defense-against-patent-troll/ We are standing on the shoulders of giants, and among them GNOME is probably the tallest. Ubuntu provides an amazing base for us to build upon. If tomorrow they were to disappear it would be a tragedy […]"
+	; ?>
 
+     
 
 
 

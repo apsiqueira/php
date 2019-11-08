@@ -19,7 +19,7 @@
 
 
 
-		<form action="valida-formularios.php" method="post">
+		<form action="valida-formularios.php" method="get">
 			
 			Nome: *
 			<br>
@@ -28,12 +28,13 @@
 			
 			E-mail: *
 			<br>
-			<input type="text" name="email" class="field">
+			<input type="email" name="email" class="field">
 			<br><br>
 
 			<input type="submit" name="submit" class="submit"><br>
 
 		</form>
+		
 
 		
 

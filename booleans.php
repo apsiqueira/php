@@ -11,8 +11,13 @@
 		<small>Curso de Básico de PHP - Prof. Ivan Lourenço Gomes</small>
 
 		<h3>True ou False?</h3><br>
-		
-		<p></p>
+		<?php 
+		$valor=5>4;
+		?>
+		<p>
+
+		<?php var_dump ($valor);?>
+		</p>
 
 
 
