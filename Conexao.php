@@ -1,5 +1,5 @@
 <?php
-$host="br446.hostgator.com.br";
+$host=
 $db="espa1321_dbnodemcu";
 $user="espa1321_estacio";
 $senha="estacio";
