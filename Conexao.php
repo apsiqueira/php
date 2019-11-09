@@ -2,7 +2,7 @@
 $host=
 $db="espa1321_dbnodemcu";
 $user=
-$senha="estacio";
+$senha=
 
 $conn = new mysqli($host,$user,$senha,$db);
 
