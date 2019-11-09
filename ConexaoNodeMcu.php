@@ -1,10 +1,6 @@
 <?php
 
 try {
-    $host="br446.hostgator.com.br";
-    $db="espa1321_dbnodemcu";
-    $user="espa1321_estacio";
-    $senha="estacio";
     
     
     
