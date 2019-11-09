@@ -1,7 +1,7 @@
 <?php
 $host=
 $db="espa1321_dbnodemcu";
-$user="espa1321_estacio";
+$user=
 $senha="estacio";
 
 $conn = new mysqli($host,$user,$senha,$db);
